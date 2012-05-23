@@ -4,9 +4,12 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/geometrical-shapes/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/geometrical-shapes-tdd/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/geometrical-shapes-tdd/tests" isTestSource="true" />
     </content>
     <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
 
