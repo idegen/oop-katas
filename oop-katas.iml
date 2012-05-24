@@ -6,10 +6,21 @@
       <sourceFolder url="file://$MODULE_DIR$/geometrical-shapes/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/geometrical-shapes-tdd/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/geometrical-shapes-tdd/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/refactoring-example/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/refactoring-example/test" isTestSource="true" />
     </content>
     <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
 
