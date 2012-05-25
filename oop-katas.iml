@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/geometrical-shapes-tdd/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/refactoring-example/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/refactoring-example/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/first-geometrical-shape/src" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
