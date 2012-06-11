@@ -5,3 +5,4 @@
 *.war
 *.ear
 *.iws
+.DS_Store
