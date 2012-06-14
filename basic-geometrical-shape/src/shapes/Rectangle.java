@@ -1,3 +1,5 @@
+package shapes;
+
 public class Rectangle {
     private final double height;
     private final double width;
