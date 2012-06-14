@@ -9,4 +9,9 @@ public class Circle {
         return radius * radius * Math.PI;
     }
 
+    public Rectangle boundingRectangle(){
+        double diameter = radius * 2;
+        return new Rectangle(diameter, diameter);
+    }
+
 }
