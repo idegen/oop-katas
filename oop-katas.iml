@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/extended-basic-code-smells/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/basic-code-smells" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/extended-basic-code-smells" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basic-code-smells/test" isTestSource="true" />
     </content>
     <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

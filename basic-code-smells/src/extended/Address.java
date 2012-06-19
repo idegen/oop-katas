@@ -1,13 +1,18 @@
 package extended;
 
-public class Address {
-    private initial.Employee employee;
 
-    public void printAddress(){
-        System.out.println(employee.getHouseNumber());
-        System.out.println(employee.getHouseName());
-        System.out.println(employee.getStreetName());
-        System.out.println(employee.getCityName());
-        System.out.println(employee.getPostCode());
+public class Address {
+    private Employee employee;
+
+    public Address(Employee employee) {
+        this.employee = employee;
+    }
+
+    public String printAddress() {
+        return employee.getHouseNumber() + "; "
+                + employee.getHouseName() + "; "
+                + employee.getStreetName() + "; "
+                + employee.getCityName()  + "; "
+                + employee.getPostCode();
     }
 }
