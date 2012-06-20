@@ -12,7 +12,7 @@ public class EnquiryDesk {
 
     public LendableItem find(String title) {
         for (LendableItem item : lendableItems) {
-            if(item.getTitle() == title ) return item;
+            if (item.getTitle() == title) return item;
         }
         return null;
     }
@@ -20,7 +20,15 @@ public class EnquiryDesk {
     public List<LendableItem> findAvailableItems() {
         ArrayList<LendableItem> results = new ArrayList<LendableItem>();
         for (LendableItem item : lendableItems) {
-            if(item.returnDueDate() == null) results.add(item);
+            if (item.returnDueDate() == null) results.add(item);
+        }
+        return results;
+    }
+
+    public List<LendableItem> find(VolumeSize sizeToLookFor) {
+        ArrayList<LendableItem> results = new ArrayList<LendableItem>();
+        for (LendableItem item : lendableItems) {
+            if (item.volumeToRead() == sizeToLookFor) results.add(item);
         }
         return results;
     }
